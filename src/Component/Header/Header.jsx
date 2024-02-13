@@ -13,6 +13,8 @@ const Header = () => {
                 <ActiveLink to="/form" className="text-2xl text-blue-500 hover:text-blue-700">Form</ActiveLink>
                 <ActiveLink to="/stateFull" className="text-2xl text-blue-500 hover:text-blue-700">StateFullForm</ActiveLink>
                 <ActiveLink to="/refForm" className="text-2xl text-blue-500 hover:text-blue-700">Ref Form</ActiveLink>
+                <ActiveLink to="/hookForm" className="text-2xl text-blue-500 hover:text-blue-700">Hook Form</ActiveLink>
+                <ActiveLink to="/reusableForm" className="text-2xl text-blue-500 hover:text-blue-700">ReusableForm</ActiveLink>
             </nav>
         </header>
     );

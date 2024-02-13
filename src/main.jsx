@@ -19,6 +19,8 @@ import NotFound from './Component/NotFound/NotFound.jsx';
 import Form from './Component/Form/Form.jsx';
 import StateFullForm from './Component/StateFullForm/StateFullForm.jsx';
 import RefForm from './Component/RefForm/RefForm.jsx';
+import HookForm from './Component/HookForm/HookForm.jsx';
+import CallReusableForm from './Component/CallReusableForm/CallReusableForm.jsx';
 
 const router = createBrowserRouter([
   {
@@ -69,6 +71,14 @@ const router = createBrowserRouter([
       {
         path: "refForm",
         element: <RefForm></RefForm>
+      },
+      {
+        path: "hookForm",
+        element: <HookForm></HookForm>
+      },
+      {
+        path: "reusableForm",
+        element: <CallReusableForm></CallReusableForm>
       },
       {
         path: '*',
